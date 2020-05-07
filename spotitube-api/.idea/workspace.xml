@@ -11,6 +11,10 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/data/PlaylistDaoTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/data/TrackDaoTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/data/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/CredentialsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/PlaylistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/TrackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/Database.java" afterDir="false" />
@@ -18,6 +22,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/TrackDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/TrackDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/properties/SingletonDatabaseProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/properties/SingletonDatabaseProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/ApplicationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/services/ApplicationServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/LoginServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/services/LoginServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/PLaylistLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/logic/PLaylistLogicTest.java" afterDir="false" />
@@ -118,72 +123,30 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest">
-    <configuration name="DatabaseTest.TestGetQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spotitube-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thomas.spotitube.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thomas.spotitube.data" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.spotitube.data.DatabaseTest" />
-      <option name="METHOD_NAME" value="TestGetQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spotitube-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thomas.spotitube.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thomas.spotitube.data" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.spotitube.data.UserDaoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserDaoTest.TestAddToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spotitube-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thomas.spotitube.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thomas.spotitube.data" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.spotitube.data.UserDaoTest" />
-      <option name="METHOD_NAME" value="TestAddToken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.thomas.spotitube in spotitube-api (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spotitube-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thomas.spotitube.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thomas.spotitube" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.com.thomas.spotitube in spotitube-api">
     <configuration name="com.thomas.spotitube in spotitube-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.thomas.spotitube.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.spotitube" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.thomas.spotitube in spotitube-api" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.spotitube.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,19 +336,12 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.com.thomas.spotitube in spotitube-api" />
-      <item itemvalue="JUnit.DatabaseTest.TestGetQuery" />
-      <item itemvalue="JUnit.UserDaoTest" />
-      <item itemvalue="JUnit.UserDaoTest.TestAddToken" />
       <item itemvalue="TomEE Server.TomEE 9.0.30" />
-      <item itemvalue="JUnit.com.thomas.spotitube in spotitube-api (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDaoTest" />
-        <item itemvalue="JUnit.com.thomas.spotitube in spotitube-api (1)" />
         <item itemvalue="JUnit.com.thomas.spotitube in spotitube-api" />
-        <item itemvalue="JUnit.UserDaoTest.TestAddToken" />
-        <item itemvalue="JUnit.DatabaseTest.TestGetQuery" />
+        <item itemvalue="JUnit.com.thomas.spotitube in spotitube-api" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +385,7 @@
       <workItem from="1587821699814" duration="23184000" />
       <workItem from="1587902373705" duration="4598000" />
       <workItem from="1588690811703" duration="17315000" />
-      <workItem from="1588800232247" duration="11321000" />
+      <workItem from="1588800232247" duration="16260000" />
     </task>
     <servers />
   </component>
@@ -453,10 +409,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="439" y="216" key="#Web_Browsers/0.23.1680.1027@0.23.1680.1027" timestamp="1587569577800" />
-    <state x="304" y="198" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588857110623">
+    <state x="304" y="198" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588871641519">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="198" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1588857110623" />
+    <state x="304" y="198" width="1071" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1588871641519" />
     <state x="100" y="123" width="1480" height="827" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1588854732719">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -509,22 +465,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="661" y="436" key="#com.intellij.ws.actions.GenerateJavaFromWsdlDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587568855197" />
-    <state width="1638" height="220" key="GridCell.Tab.0.bottom" timestamp="1588857268718">
+    <state width="1638" height="216" key="GridCell.Tab.0.bottom" timestamp="1588872901872">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="220" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1588857268718" />
-    <state width="1638" height="220" key="GridCell.Tab.0.center" timestamp="1588857268717">
+    <state width="1638" height="216" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1588872901872" />
+    <state width="1638" height="216" key="GridCell.Tab.0.center" timestamp="1588872901871">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="220" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1588857268717" />
-    <state width="1638" height="220" key="GridCell.Tab.0.left" timestamp="1588857268717">
+    <state width="1638" height="216" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1588872901871" />
+    <state width="1638" height="216" key="GridCell.Tab.0.left" timestamp="1588872901871">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="220" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1588857268717" />
-    <state width="1638" height="220" key="GridCell.Tab.0.right" timestamp="1588857268717">
+    <state width="1638" height="216" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1588872901871" />
+    <state width="1638" height="216" key="GridCell.Tab.0.right" timestamp="1588872901872">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="220" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588857268717" />
+    <state width="1638" height="216" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588872901872" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1588854516934">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -573,10 +529,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1382" height="270" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588800513501" />
-    <state x="328" y="118" key="SettingsEditor" timestamp="1588794533364">
+    <state x="328" y="118" key="SettingsEditor" timestamp="1588872031180">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1588794533364" />
+    <state x="328" y="118" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1588872031180" />
     <state x="586" y="286" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587855236937">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -597,20 +553,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="505" y="248" key="run.anything.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588701481593" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1588847400317">
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1588870099316">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588847400317" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1588870099316" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/spotitube_api$com_thomas_spotitube_in_spotitube_api.ic" NAME="com.thomas.spotitube in spotitube-api Coverage Results" MODIFIED="1588857128210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.thomas.spotitube.logic.*</FILTER>
+    <SUITE FILE_PATH="coverage/spotitube_api$TrackDaoTest.ic" NAME="TrackDaoTest Coverage Results" MODIFIED="1588870574751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.thomas.spotitube.data.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/spotitube_api$PlaylistDaoTest.ic" NAME="PlaylistDaoTest Coverage Results" MODIFIED="1588871086305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.thomas.spotitube.data.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/spotitube_api$com_thomas_spotitube_in_spotitube_api.ic" NAME="com.thomas.spotitube in spotitube-api Coverage Results" MODIFIED="1588872901840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.thomas.spotitube.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/spotitube_api$TomEE_9_0_30.ic" NAME="TomEE 9.0.30 Coverage Results" MODIFIED="1588800490049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/spotitube_api$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1588848854109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.thomas.spotitube.data.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/spotitube_api$com_thomas_spotitube_in_spotitube_api__1_.ic" NAME="com.thomas.spotitube in spotitube-api (1) Coverage Results" MODIFIED="1588857198088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/spotitube_api$com_thomas_spotitube_in_spotitube_api__1_.ic" NAME="com.thomas.spotitube in spotitube-api (1) Coverage Results" MODIFIED="1588870474778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.thomas.spotitube.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/spotitube_api$All_in_spotitube_api.ic" NAME="All in spotitube-api Coverage Results" MODIFIED="1587907192500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

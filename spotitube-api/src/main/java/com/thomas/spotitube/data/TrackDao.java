@@ -169,7 +169,7 @@ public class TrackDao extends Database implements ITrackDao {
      * @param result: ResultSet
      * @return Track
      */
-    private Track makeNewTrack(ResultSet result, boolean includeOfflineAvailable) throws SQLException {
+    public Track makeNewTrack(ResultSet result, boolean includeOfflineAvailable) throws SQLException {
         Track track = new Track();
         track.setProperties(
                 result.getInt("id"),

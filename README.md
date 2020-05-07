@@ -2,7 +2,7 @@
 This assignment contains the following parts:
 * Spotitube Java implementation with Unit Tests
 * Documentation with UML diagrams
-* SQL Create and Insert scripts
+* SQL Create and Insert scripts and Diagram
 
 ## Setup
 * Run the SQL Scripts on MySQL (local or somewhere else)

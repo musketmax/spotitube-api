@@ -23,4 +23,3 @@ password: "password"
 
 ## Testing
 * Click the `Run tests with coverage` button in IntelliJ IDEA to run all tests with coverage.
-* Only the `Service` and `Logic` Classes are tested, and not the `DAO` classes. This is because the `DAO` classes are purely responsible for retrieving the data from MySQL, and are therefore not eligible for testing.

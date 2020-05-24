@@ -6,60 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c6c9cd7-8966-4cb7-95cb-676e205f0d2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/data/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/data/PlaylistDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/data/TrackDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/data/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/CredentialsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/PlaylistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/TrackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/domain/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/PlaylistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/PlaylistDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/TrackDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/TrackDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/properties/SingletonDatabaseProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/data/properties/SingletonDatabaseProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/spotitube/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/ApplicationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/services/ApplicationServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/LoginServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/services/LoginServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/PLaylistLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/logic/PLaylistLogicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/PlaylistServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/services/PlaylistServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/TrackLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/logic/TrackLogicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/TrackServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/services/TrackServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/UserLogicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/spotitube/logic/UserLogicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/PlaylistDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/PlaylistDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/TrackDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/TrackDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/constants/DatabaseConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/constants/DatabaseConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/constants/HttpMessageConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/constants/HttpMessageConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/properties/SingletonDatabaseProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/data/properties/SingletonDatabaseProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/Credentials.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/Credentials.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/Playlist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/Track.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/ForbiddenException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/ForbiddenException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/ServerErrorException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/ServerErrorException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/TokenInvalidException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/TokenInvalidException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/UnauthorizedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/UnauthorizedException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/exceptions/UserNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/logic/TrackLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/logic/TrackLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/logic/UserLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/logic/UserLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/services/PlaylistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/services/PlaylistService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/services/TrackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/services/TrackService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/utilities/PasswordHashing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/spotitube/utilities/PasswordHashing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/spotitube-api-1.0-SNAPSHOT/WEB-INF/classes/com/thomas/spotitube/logic/PlayListLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/spotitube-api-1.0-SNAPSHOT/WEB-INF/classes/com/thomas/spotitube/logic/PlayListLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/spotitube/ApplicationServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/spotitube/LoginServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/spotitube/PLaylistLogicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/spotitube/PlaylistServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/spotitube/TrackLogicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/spotitube/TrackServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/spotitube/UserLogicTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="8c6c9cd7-8966-4cb7-95cb-676e205f0d2b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -359,7 +306,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="TomEE Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -465,70 +412,70 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="661" y="436" key="#com.intellij.ws.actions.GenerateJavaFromWsdlDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587568855197" />
-    <state width="1382" height="270" key="GridCell.Tab.0.bottom" timestamp="1588873842527">
+    <state width="1382" height="270" key="GridCell.Tab.0.bottom" timestamp="1590353567487">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842527" />
-    <state width="1382" height="270" key="GridCell.Tab.0.center" timestamp="1588873842526">
+    <state width="1382" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567487" />
+    <state width="1382" height="270" key="GridCell.Tab.0.center" timestamp="1590353567486">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842526" />
-    <state width="1382" height="270" key="GridCell.Tab.0.left" timestamp="1588873842526">
+    <state width="1382" height="270" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567486" />
+    <state width="1382" height="270" key="GridCell.Tab.0.left" timestamp="1590353567485">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842526" />
-    <state width="1382" height="270" key="GridCell.Tab.0.right" timestamp="1588873842527">
+    <state width="1382" height="270" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567485" />
+    <state width="1382" height="270" key="GridCell.Tab.0.right" timestamp="1590353567486">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842527" />
-    <state width="1382" height="270" key="GridCell.Tab.1.bottom" timestamp="1588873842528">
+    <state width="1382" height="270" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567486" />
+    <state width="1382" height="270" key="GridCell.Tab.1.bottom" timestamp="1590353567488">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842528" />
-    <state width="1382" height="270" key="GridCell.Tab.1.center" timestamp="1588873842528">
+    <state width="1382" height="270" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567488" />
+    <state width="1382" height="270" key="GridCell.Tab.1.center" timestamp="1590353567488">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842528" />
-    <state width="1382" height="270" key="GridCell.Tab.1.left" timestamp="1588873842527">
+    <state width="1382" height="270" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567488" />
+    <state width="1382" height="270" key="GridCell.Tab.1.left" timestamp="1590353567487">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842527" />
-    <state width="1382" height="270" key="GridCell.Tab.1.right" timestamp="1588873842528">
+    <state width="1382" height="270" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567487" />
+    <state width="1382" height="270" key="GridCell.Tab.1.right" timestamp="1590353567488">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842528" />
-    <state width="1382" height="270" key="GridCell.Tab.2.bottom" timestamp="1588873842530">
+    <state width="1382" height="270" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567488" />
+    <state width="1382" height="270" key="GridCell.Tab.2.bottom" timestamp="1590353567489">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842530" />
-    <state width="1382" height="270" key="GridCell.Tab.2.center" timestamp="1588873842529">
+    <state width="1382" height="270" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567489" />
+    <state width="1382" height="270" key="GridCell.Tab.2.center" timestamp="1590353567489">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842529" />
-    <state width="1382" height="270" key="GridCell.Tab.2.left" timestamp="1588873842529">
+    <state width="1382" height="270" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567489" />
+    <state width="1382" height="270" key="GridCell.Tab.2.left" timestamp="1590353567489">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842529" />
-    <state width="1382" height="270" key="GridCell.Tab.2.right" timestamp="1588873842529">
+    <state width="1382" height="270" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567489" />
+    <state width="1382" height="270" key="GridCell.Tab.2.right" timestamp="1590353567489">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842529" />
-    <state width="1382" height="270" key="GridCell.Tab.3.bottom" timestamp="1588873842531">
+    <state width="1382" height="270" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567489" />
+    <state width="1382" height="270" key="GridCell.Tab.3.bottom" timestamp="1590353567490">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842531" />
-    <state width="1382" height="270" key="GridCell.Tab.3.center" timestamp="1588873842530">
+    <state width="1382" height="270" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567490" />
+    <state width="1382" height="270" key="GridCell.Tab.3.center" timestamp="1590353567490">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842530" />
-    <state width="1382" height="270" key="GridCell.Tab.3.left" timestamp="1588873842530">
+    <state width="1382" height="270" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567490" />
+    <state width="1382" height="270" key="GridCell.Tab.3.left" timestamp="1590353567490">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842530" />
-    <state width="1382" height="270" key="GridCell.Tab.3.right" timestamp="1588873842530">
+    <state width="1382" height="270" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567490" />
+    <state width="1382" height="270" key="GridCell.Tab.3.right" timestamp="1590353567490">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1382" height="270" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1588873842530" />
+    <state width="1382" height="270" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1590353567490" />
     <state x="328" y="118" key="SettingsEditor" timestamp="1588872031180">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

@@ -1,34 +1,53 @@
 package com.thomas.spotitube.domain;
 
+import org.bson.types.ObjectId;
+
+import java.util.ArrayList;
+
 public class User {
-    private int id;
+    private ObjectId id;
     private String user;
     private String token;
     private String password;
+    private ArrayList<Playlist> playlists;
 
-    public User(int id, String user, String token) {
-        this.id = id;
-        this.user = user;
-        this.token = token;
+    public ObjectId getId() {
+        return id;
     }
 
-    public void setId(int id) { this.id = id; }
+    public String getUser() {
+        return user;
+    }
 
-    public int getId() { return id; }
+    public User setUser(String user) {
+        this.user = user;
+        return this;
+    }
 
-    public void setUser(String user) { this.user = user; }
+    public String getToken() {
+        return token;
+    }
 
-    public String getUser() { return user; }
-
-    public void setToken(String token) { this.token = token; }
-
-    public String getToken() { return token; }
+    public User setToken(String token) {
+        this.token = token;
+        return this;
+    }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public User setPassword(String password) {
         this.password = password;
+        return this;
+    }
+
+    public ArrayList<Playlist> getPlaylists() {
+        return playlists;
+    }
+
+    public User setPlaylists(ArrayList<Playlist> playlists) {
+        this.playlists = playlists;
+        return this;
     }
 }

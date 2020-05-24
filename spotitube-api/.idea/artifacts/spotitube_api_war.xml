@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="spotitube-api-1.0-SNAPSHOT.war">
+    <root id="archive" name="spotitube-api-mongodb-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="spotitube-api:war exploded" />
     </root>
   </artifact>

@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 
 public class SingletonDatabaseProperties {
     private Properties props;
-    private static SingletonDatabaseProperties instance;
     private Logger logger;
+    private static SingletonDatabaseProperties instance;
 
     private SingletonDatabaseProperties() {
         logger = Logger.getLogger(getClass().getName());
@@ -26,18 +26,14 @@ public class SingletonDatabaseProperties {
         return instance;
     }
 
-    public String driver()
+    public String database()
     {
-        return props.getProperty("driver");
+        return props.getProperty("database");
     }
 
     public String connectionString()
     {
         return props.getProperty("connectionString");
-    }
-
-    public String getQuery(String key) {
-        return props.getProperty(key);
     }
 
     public void loadProperties() {

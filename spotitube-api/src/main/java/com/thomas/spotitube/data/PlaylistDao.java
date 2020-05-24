@@ -22,6 +22,7 @@ public class PlaylistDao extends Database implements IPlaylistDao {
     public ArrayList<Playlist> getPlaylists(ObjectId userId) {
         MongoCollection<User> collection = database.getCollection("users", User.class);
         User user = collection.find(eq("id", userId)).first();
+
         ArrayList<Playlist> playlists = new ArrayList<>();
 
         if (user != null) {
